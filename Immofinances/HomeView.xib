@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.3.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController">
+            <connections>
+                <outlet property="menuButton" destination="i3F-w5-xdA" id="3lk-xP-GLF"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AKw-5J-9cz">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="70"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i3F-w5-xdA">
+                            <rect key="frame" x="10" y="23" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="N6x-5O-ZXf"/>
+                                <constraint firstAttribute="height" constant="40" id="tGr-ep-Ksm"/>
+                            </constraints>
+                            <state key="normal" image="MenuIcon"/>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="u5A-rQ-VaT">
+                            <rect key="frame" x="110" y="31.666666666666671" width="205" height="23"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="23" id="CIG-XE-rLh"/>
+                                <constraint firstAttribute="width" constant="205" id="EfZ-YG-eHN"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.49019607840000001" green="0.49019607840000001" blue="0.49019607840000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="i3F-w5-xdA" firstAttribute="leading" secondItem="AKw-5J-9cz" secondAttribute="leading" constant="10" id="2TG-BM-Gxx"/>
+                        <constraint firstItem="i3F-w5-xdA" firstAttribute="top" secondItem="AKw-5J-9cz" secondAttribute="top" constant="23" id="3Fz-Vw-l9V"/>
+                        <constraint firstItem="u5A-rQ-VaT" firstAttribute="top" secondItem="AKw-5J-9cz" secondAttribute="top" constant="31.5" id="AmQ-ll-Eht"/>
+                        <constraint firstAttribute="height" constant="70" id="Bcf-jJ-CyJ"/>
+                        <constraint firstItem="u5A-rQ-VaT" firstAttribute="centerX" secondItem="AKw-5J-9cz" secondAttribute="centerX" constant="5.5" id="NJX-8F-uub"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="top" secondItem="AKw-5J-9cz" secondAttribute="top" constant="20" id="6AX-Vt-h0f"/>
+                <constraint firstItem="AKw-5J-9cz" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="7Na-Eb-JgU"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="AKw-5J-9cz" secondAttribute="trailing" id="zgb-r7-wxm"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="45" y="52.816901408450704"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Logo" width="453" height="50"/>
+        <image name="MenuIcon" width="60" height="60"/>
+    </resources>
+</document>
