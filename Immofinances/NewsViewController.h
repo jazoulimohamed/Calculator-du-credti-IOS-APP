@@ -10,7 +10,15 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@protocol NewsViewControllerDelegate
+@optional
+- (void)returnToHomeViewFromNewsView;
+@end
+
 @interface NewsViewController : UIViewController
+
+@property (nonatomic, weak) id <NewsViewControllerDelegate> delegate;
+@property (nonatomic,strong) NSMutableArray *newsMovies;
 
 @end
 

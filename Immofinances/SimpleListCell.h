@@ -12,5 +12,6 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *menuTitleLabel;
 @property (weak, nonatomic) IBOutlet UIImageView *iconImageView;
+@property (weak, nonatomic) IBOutlet UIView *separatorView;
 
 @end

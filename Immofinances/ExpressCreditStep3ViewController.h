@@ -10,7 +10,15 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@protocol ExpressCreditStep3ViewControllerDelegate
+@optional
+- (void)goToExpressCreditStep4View;
+- (void)returnToExpressCreditStep2View;
+@end
+
 @interface ExpressCreditStep3ViewController : UIViewController
+
+@property (nonatomic, weak) id <ExpressCreditStep3ViewControllerDelegate> delegate;
 
 @end
 

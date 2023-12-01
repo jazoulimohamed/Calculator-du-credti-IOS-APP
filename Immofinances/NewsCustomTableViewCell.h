@@ -12,6 +12,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface NewsCustomTableViewCell : UITableViewCell
 
+@property (weak, nonatomic) IBOutlet UILabel *newsTitle;
+@property (weak, nonatomic) IBOutlet UILabel *newsDescription;
+@property (weak, nonatomic) IBOutlet UILabel *newsDate;
+
 @end
 
 NS_ASSUME_NONNULL_END

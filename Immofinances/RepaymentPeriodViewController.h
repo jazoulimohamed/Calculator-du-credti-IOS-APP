@@ -10,7 +10,14 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@protocol RepaymentPeriodViewControllerDelegate
+@optional
+- (void)returnToHomeViewFromRepaymentPeriodView;
+@end
+
 @interface RepaymentPeriodViewController : UIViewController
+
+@property (nonatomic, weak) id <RepaymentPeriodViewControllerDelegate> delegate;
 
 @end
 

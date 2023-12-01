@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.3.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailsView3Controller">
+            <connections>
+                <outlet property="closeButton" destination="thI-I1-jVh" id="UOB-nU-m0E"/>
+                <outlet property="view" destination="iN0-l3-epB" id="vmg-u5-wIt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="663"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="La garantie Décès et PTIA (Perte totale irréversible d'autonomie)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bDu-xL-7IS">
+                    <rect key="frame" x="8" y="66" width="358" height="15"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="358" id="EQz-TR-TCs"/>
+                        <constraint firstAttribute="height" constant="15" id="thM-Ov-mj3"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="10"/>
+                    <color key="textColor" red="0.97647058819999999" green="0.50196078430000002" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qrv-Qi-ynd">
+                    <rect key="frame" x="8" y="81" width="358" height="91"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="91" id="hIv-ul-d3E"/>
+                    </constraints>
+                    <mutableString key="text">En cas de décès de l'assuré, le CRD est versé à l'organisme prêteur, tel qu'il est indiqué dans le tableau d'amortissement, et ce dans la limite du montant garanti. PTIA : Invalidité physique ou mentale constatée (avant l'âge de 65 ans) mettant l'assuré dans l'incapacité définitive d'exercer toute activité rémunératrice et dans l'obligation d'avoir recours à l'assistance d'une tierce personne pour effectuer 3 des 4 actes courants de la vie (se laver, se nourrir, se déplacer et se vêtir). L'assureur rembourse le CRD à l'organisme prêteur.</mutableString>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="9"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="La garantie IPT (Invalidité Permanente Totale)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VFj-uv-2B4">
+                    <rect key="frame" x="8" y="324" width="238" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="238" id="lVh-r7-bWV"/>
+                        <constraint firstAttribute="height" constant="18" id="os3-XX-Qx9"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="10"/>
+                    <color key="textColor" red="0.97647058819999999" green="0.50196078430000002" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PcL-Hs-HxN">
+                    <rect key="frame" x="8" y="339" width="358" height="64"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="64" id="uXQ-14-JgJ"/>
+                    </constraints>
+                    <string key="text">Invalidité physique ou mentale constatée avant l'âge de 65 ans mettant l'assuré dans l'incapacité d'exercer toute activité professionnelle rémunérée. Le sinistre sera pris en charge après consolidation de l'état de santé de l'assuré.\nN.B : Est considéré comme Invalide 2e catégorie une personne ayant un taux d'invalidité supérieur ou égal à 66%.</string>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="9"/>
+                    <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="La garantie ITT (Incapacité Temporaire de Travail)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zHv-XB-boo">
+                    <rect key="frame" x="8" y="167" width="274" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="274" id="6T5-63-tun"/>
+                        <constraint firstAttribute="height" constant="18" id="tnj-rl-yq4"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="10"/>
+                    <color key="textColor" red="0.97647058819999999" green="0.50196078430000002" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Coi-ej-ekO">
+                    <rect key="frame" x="8" y="182" width="358" height="98"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="98" id="FR2-Jd-VVT"/>
+                    </constraints>
+                    <mutableString key="text">Incapacité médicalement reconnue mettant l'assuré dans l'impossibilité complète mais temporaire (à la suite de maladie ou d'accident) de se livrer à une activité professionnelle rémunérée. La prise en charge des échéances de prêt par cette garantie débute généralement à compter du 91eme jour d'arrêt de travail : les 90 premiers jours correspondent à un délai de franchise pendant lequel l'assuré n'est pas indemnisé. La franchise la plus couramment rencontrée est donc celle de 90 jours mais elle peut être modulable en fonction du contrat concerné (le plus souvent de 30,60,90).</mutableString>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="9"/>
+                    <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="La garantie IPP (Invalidité Permanente Partielle)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oMt-44-cc8">
+                    <rect key="frame" x="8" y="278" width="274" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="274" id="7Io-ce-TjR"/>
+                        <constraint firstAttribute="height" constant="18" id="nkD-Ct-dKF"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="10"/>
+                    <color key="textColor" red="0.97647058819999999" green="0.50196078430000002" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OvF-bI-Kws">
+                    <rect key="frame" x="8" y="292" width="358" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="32" id="pVH-06-JMp"/>
+                    </constraints>
+                    <string key="text">Définition identique à la garantie IPT, seul le taux de prise en charge est différent puisqu'il commence à 33% (au lieu de 66% pour l'IPT).</string>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="9"/>
+                    <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="La garantie PE (Perte d'emploi)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zjh-d4-8hj">
+                    <rect key="frame" x="8" y="480" width="274" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="274" id="tfE-Ho-Bbe"/>
+                        <constraint firstAttribute="height" constant="18" id="w8u-7B-rd9"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="10"/>
+                    <color key="textColor" red="0.97647058819999999" green="0.50196078430000002" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="La garantie PE (Perte d'emploi)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yey-lx-HIg">
+                    <rect key="frame" x="8" y="497" width="358" height="19"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="19" id="UNR-NQ-bXg"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="9"/>
+                    <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Déplacements" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SR6-SE-myf">
+                    <rect key="frame" x="8" y="516" width="274" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="18" id="8he-zM-12M"/>
+                        <constraint firstAttribute="width" constant="274" id="pZ1-RI-vTG"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="10"/>
+                    <color key="textColor" red="0.97647058819999999" green="0.50196078430000002" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Effectués en voiture pendant l'exercice de l'activité professionnelle (hors trajets domicile - travail)." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NkB-hg-7yC">
+                    <rect key="frame" x="8" y="533" width="358" height="28"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="28" id="eGa-HY-bzk"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="9"/>
+                    <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Manutention" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KKe-6C-rHv">
+                    <rect key="frame" x="8" y="561" width="274" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="18" id="mAg-gD-tym"/>
+                        <constraint firstAttribute="width" constant="274" id="xzZ-HX-r3R"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="10"/>
+                    <color key="textColor" red="0.97647058819999999" green="0.50196078430000002" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vRb-xr-uww">
+                    <rect key="frame" x="8" y="576" width="358" height="33"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="33" id="Obl-3m-1ol"/>
+                    </constraints>
+                    <string key="text">Toutes activités de manipulation et/ou déplacement d'objets/marchandises réputés lourds ou dangereux exercées régulièrement pendant son travail.</string>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="9"/>
+                    <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="thI-I1-jVh">
+                    <rect key="frame" x="336" y="26" width="30" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="K8t-w9-13J"/>
+                        <constraint firstAttribute="width" constant="30" id="lf0-8O-cXj"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                    <state key="normal" title="X">
+                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="hideDetailsView3:" destination="-1" eventType="touchUpInside" id="b0J-Mk-L4m"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="La garantie MNO (Maladie non objectivable)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f6a-J8-1UN">
+                    <rect key="frame" x="8" y="402" width="274" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="274" id="HuT-7J-fu9"/>
+                        <constraint firstAttribute="height" constant="18" id="qUF-sO-QAD"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="10"/>
+                    <color key="textColor" red="0.97647058819999999" green="0.50196078430000002" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MEU-UM-TqJ">
+                    <rect key="frame" x="8" y="417" width="358" height="65"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="65" id="zoG-xw-iHk"/>
+                    </constraints>
+                    <string key="text">Une MNO est une maladie subjective dont l'origine ne peut être identifiée par un professionnel de santé. Les Maladies Non Objectivables le plus souvent énoncées sont : - L'affection du dos - La fatigue à caractère chronique - Les maladies psychosomatiques - Les pathologies psychiques - L'épuisement professionnel ou burnout.</string>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="9"/>
+                    <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Travail en hauteur" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lqk-zO-T7L">
+                    <rect key="frame" x="8" y="608" width="274" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="274" id="5Yb-TN-7BQ"/>
+                        <constraint firstAttribute="height" constant="18" id="In9-bz-UtQ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="10"/>
+                    <color key="textColor" red="0.97647058819999999" green="0.50196078430000002" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ifi-Je-ySD">
+                    <rect key="frame" x="8" y="624" width="358" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="kkp-Vp-h6r"/>
+                    </constraints>
+                    <string key="text">Toutes activités professionnelles exercées à plus de 15 m du sol. Exemples : profession sur échafaudage, laveur de vitres, poseurs d'antennes.</string>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="9"/>
+                    <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="OvF-bI-Kws" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="8" id="0at-8C-cCT"/>
+                <constraint firstItem="KKe-6C-rHv" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="8" id="1ag-hj-Wbn"/>
+                <constraint firstItem="bDu-xL-7IS" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="46" id="2Rc-bI-GLT"/>
+                <constraint firstItem="OvF-bI-Kws" firstAttribute="top" secondItem="oMt-44-cc8" secondAttribute="bottom" constant="-4" id="3B6-IY-EKu"/>
+                <constraint firstItem="SR6-SE-myf" firstAttribute="top" secondItem="Yey-lx-HIg" secondAttribute="bottom" id="4Qi-W2-b00"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="vRb-xr-uww" secondAttribute="trailing" constant="9" id="58S-mz-v44"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Yey-lx-HIg" secondAttribute="trailing" constant="9" id="5qF-6v-dEm"/>
+                <constraint firstItem="lqk-zO-T7L" firstAttribute="top" secondItem="vRb-xr-uww" secondAttribute="bottom" constant="-1" id="7re-h5-k0c"/>
+                <constraint firstItem="thI-I1-jVh" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="6" id="Alo-X7-vRs"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Ifi-Je-ySD" secondAttribute="trailing" constant="9" id="AnM-8L-Xqb"/>
+                <constraint firstItem="vRb-xr-uww" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="8" id="CH9-IM-3fZ"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="OvF-bI-Kws" secondAttribute="trailing" constant="9" id="DKd-3G-xJf"/>
+                <constraint firstItem="bDu-xL-7IS" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="8" id="EHl-Ws-7s7"/>
+                <constraint firstItem="Yey-lx-HIg" firstAttribute="top" secondItem="zjh-d4-8hj" secondAttribute="bottom" constant="-1" id="GHb-Vj-LeO"/>
+                <constraint firstItem="qrv-Qi-ynd" firstAttribute="top" secondItem="bDu-xL-7IS" secondAttribute="bottom" id="GMw-rp-c7G"/>
+                <constraint firstItem="KKe-6C-rHv" firstAttribute="top" secondItem="NkB-hg-7yC" secondAttribute="bottom" id="HN2-Rp-GQQ"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="MEU-UM-TqJ" secondAttribute="trailing" constant="9" id="Iya-CS-IlJ"/>
+                <constraint firstItem="NkB-hg-7yC" firstAttribute="top" secondItem="SR6-SE-myf" secondAttribute="bottom" constant="-1" id="MAT-D6-NSJ"/>
+                <constraint firstItem="NkB-hg-7yC" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="8" id="Mcv-HN-cXz"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Coi-ej-ekO" secondAttribute="trailing" constant="9" id="Nfs-DH-Ddw"/>
+                <constraint firstItem="MEU-UM-TqJ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="8" id="NlG-bM-luy"/>
+                <constraint firstItem="SR6-SE-myf" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="8" id="PPd-ae-ISD"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="thI-I1-jVh" secondAttribute="trailing" constant="9" id="PXa-9g-M9B"/>
+                <constraint firstItem="vRb-xr-uww" firstAttribute="top" secondItem="KKe-6C-rHv" secondAttribute="bottom" constant="-3" id="QCa-1S-j1S"/>
+                <constraint firstItem="f6a-J8-1UN" firstAttribute="top" secondItem="PcL-Hs-HxN" secondAttribute="bottom" constant="-1" id="R9X-TB-sWb"/>
+                <constraint firstItem="VFj-uv-2B4" firstAttribute="top" secondItem="OvF-bI-Kws" secondAttribute="bottom" id="Sxv-Mo-Kj2"/>
+                <constraint firstItem="oMt-44-cc8" firstAttribute="top" secondItem="Coi-ej-ekO" secondAttribute="bottom" constant="-2" id="WEP-DL-YRB"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="NkB-hg-7yC" secondAttribute="trailing" constant="9" id="Zrs-Dt-F7K"/>
+                <constraint firstItem="PcL-Hs-HxN" firstAttribute="top" secondItem="VFj-uv-2B4" secondAttribute="bottom" constant="-3" id="a0b-fq-wOb"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="qrv-Qi-ynd" secondAttribute="trailing" constant="9" id="aZt-Lv-Ii0"/>
+                <constraint firstItem="Ifi-Je-ySD" firstAttribute="top" secondItem="lqk-zO-T7L" secondAttribute="bottom" constant="-2" id="bkK-57-QwW"/>
+                <constraint firstItem="MEU-UM-TqJ" firstAttribute="top" secondItem="f6a-J8-1UN" secondAttribute="bottom" constant="-3" id="cbb-jC-UAU"/>
+                <constraint firstItem="zjh-d4-8hj" firstAttribute="top" secondItem="MEU-UM-TqJ" secondAttribute="bottom" constant="-2" id="dK2-0d-4G3"/>
+                <constraint firstItem="VFj-uv-2B4" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="8" id="fBK-zK-JXH"/>
+                <constraint firstItem="oMt-44-cc8" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="8" id="gfZ-S2-xDt"/>
+                <constraint firstItem="Ifi-Je-ySD" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="8" id="imG-21-ihz"/>
+                <constraint firstItem="PcL-Hs-HxN" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="8" id="kgp-iW-8Zy"/>
+                <constraint firstItem="qrv-Qi-ynd" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="8" id="knk-We-XCC"/>
+                <constraint firstItem="zHv-XB-boo" firstAttribute="top" secondItem="qrv-Qi-ynd" secondAttribute="bottom" constant="-5" id="qTH-sK-dJn"/>
+                <constraint firstItem="Coi-ej-ekO" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="8" id="qxM-X5-ae8"/>
+                <constraint firstItem="zHv-XB-boo" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="8" id="uHE-8l-fRt"/>
+                <constraint firstItem="zjh-d4-8hj" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="8" id="v8y-Zi-PBZ"/>
+                <constraint firstItem="lqk-zO-T7L" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="8" id="vja-ka-MKI"/>
+                <constraint firstItem="Yey-lx-HIg" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="8" id="wi9-ox-3Fu"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="PcL-Hs-HxN" secondAttribute="trailing" constant="9" id="yKu-2j-cgK"/>
+                <constraint firstItem="f6a-J8-1UN" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="8" id="yig-cL-gV6"/>
+                <constraint firstItem="Coi-ej-ekO" firstAttribute="top" secondItem="zHv-XB-boo" secondAttribute="bottom" constant="-3" id="z4M-hN-EPG"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="128.4375" y="202.28873239436621"/>
+        </view>
+    </objects>
+</document>

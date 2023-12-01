@@ -10,7 +10,14 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@protocol ContactViewControllerDelegate
+@optional
+- (void)returnToHomeViewFromContactView;
+@end
+
 @interface ContactViewController : UIViewController
+
+@property (nonatomic, weak) id <ContactViewControllerDelegate> delegate;
 
 @end
 

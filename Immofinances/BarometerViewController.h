@@ -10,7 +10,15 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@protocol BarometerViewControllerDelegate
+@optional
+- (void)returnToHomeViewFromBarometerView;
+@end
+
 @interface BarometerViewController : UIViewController
+
+@property (nonatomic, weak) id <BarometerViewControllerDelegate> delegate;
+@property (nonatomic, strong) NSDictionary *values;
 
 @end
 

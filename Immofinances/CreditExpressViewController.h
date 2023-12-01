@@ -7,10 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <WebKit/WebKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CreditExpressViewController : UIViewController
+@protocol CreditExpressViewControllerDelegate
+@optional
+- (void)returnToHomeViewFromCreditExpressView;
+@end
+
+@interface CreditExpressViewController : UIViewController <WKNavigationDelegate>
+
+@property (nonatomic, weak) id <CreditExpressViewControllerDelegate> delegate;
+@property(strong,nonatomic) WKWebView *theWebView;
+@property (weak, nonatomic) IBOutlet UIView *toolBar;
 
 @end
 

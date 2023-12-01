@@ -10,7 +10,14 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@protocol BorrowingCapacityViewControllerDelegate
+@optional
+- (void)returnToHomeViewFromBorrowingCapacityView;
+@end
+
 @interface BorrowingCapacityViewController : UIViewController
+
+@property (nonatomic, weak) id <BorrowingCapacityViewControllerDelegate> delegate;
 
 @end
 

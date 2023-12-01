@@ -12,6 +12,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface News : NSObject
 
+@property (strong, nonatomic) NSString *newsTitle;
+@property (strong, nonatomic) NSString *newsDescription;
+@property (strong, nonatomic) NSString *newsDate;
+@property (strong, nonatomic) NSString *newsLink;
+
 @end
 
 NS_ASSUME_NONNULL_END

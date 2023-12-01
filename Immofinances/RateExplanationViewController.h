@@ -10,7 +10,14 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@protocol RateExplanationViewControllerDelegate
+@optional
+- (void)hideRateExplanationView;
+@end
+
 @interface RateExplanationViewController : UIViewController
+
+@property (nonatomic, weak) id <RateExplanationViewControllerDelegate> delegate;
 
 @end
 

@@ -7,6 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88073CD92593DDA0008095B7 /* rss.json in Resources */ = {isa = PBXBuildFile; fileRef = 88073CD82593DDA0008095B7 /* rss.json */; };
+		882D1297212C25E7003F9EB0 /* InsurancesComparatorStep3View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 882D1296212C25E7003F9EB0 /* InsurancesComparatorStep3View.xib */; };
+		882D129A212C25FB003F9EB0 /* InsurancesComparatorStep3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 882D1299212C25FB003F9EB0 /* InsurancesComparatorStep3ViewController.m */; };
+		882D129D212C55D5003F9EB0 /* ExpressCreditStep1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 882D129C212C55D5003F9EB0 /* ExpressCreditStep1ViewController.m */; };
+		882D12A1212C5687003F9EB0 /* ExpressCreditStep1View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 882D12A0212C5687003F9EB0 /* ExpressCreditStep1View.xib */; };
+		882D12A3212C5DE7003F9EB0 /* ExpressCreditStep2View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 882D12A2212C5DE7003F9EB0 /* ExpressCreditStep2View.xib */; };
+		882D12A6212C5DFF003F9EB0 /* ExpressCreditStep2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 882D12A5212C5DFF003F9EB0 /* ExpressCreditStep2ViewController.m */; };
+		882D12A8212C6007003F9EB0 /* DetailsView1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 882D12A7212C6007003F9EB0 /* DetailsView1.xib */; };
+		882D12AB212C6340003F9EB0 /* DetailsView1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 882D12AA212C6340003F9EB0 /* DetailsView1Controller.m */; };
+		882D12AE212C7C35003F9EB0 /* DetailsView2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 882D12AD212C7C35003F9EB0 /* DetailsView2Controller.m */; };
+		882D12B0212C7C44003F9EB0 /* DetailsView2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 882D12AF212C7C44003F9EB0 /* DetailsView2.xib */; };
+		882D12B2212C7F9E003F9EB0 /* RateExplanationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 882D12B1212C7F9D003F9EB0 /* RateExplanationView.xib */; };
+		882D12B5212C7FB7003F9EB0 /* RateExplanationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 882D12B4212C7FB7003F9EB0 /* RateExplanationViewController.m */; };
+		8833F1D7213423AA00A87BE7 /* DetailsView3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8833F1D6213423A900A87BE7 /* DetailsView3.xib */; };
+		8833F1DA213423DA00A87BE7 /* DetailsView3Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8833F1D9213423DA00A87BE7 /* DetailsView3Controller.m */; };
+		8833F1DD2134424B00A87BE7 /* PersonalAreaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8833F1DC2134424B00A87BE7 /* PersonalAreaViewController.m */; };
+		8833F1DF213442E100A87BE7 /* PersonalAreaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8833F1DE213442E100A87BE7 /* PersonalAreaView.xib */; };
+		8833F1E121344EA500A87BE7 /* ContactView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8833F1E021344EA400A87BE7 /* ContactView.xib */; };
+		8833F1E421344EB800A87BE7 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8833F1E321344EB800A87BE7 /* ContactViewController.m */; };
+		8837393B21355A7E00B947C6 /* ExpressCreditStep3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8837393A21355A7E00B947C6 /* ExpressCreditStep3ViewController.m */; };
+		8837393D21355A9A00B947C6 /* ExpressCreditStep3View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8837393C21355A9A00B947C6 /* ExpressCreditStep3View.xib */; };
+		885E4DA42586A50800B364B8 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885E4DA32586A50800B364B8 /* WebKit.framework */; };
+		886A9F4C212737A700B4898C /* RateDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 886A9F4B212737A600B4898C /* RateDetailsViewController.m */; };
+		886A9F4E212737EC00B4898C /* RateDetailsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 886A9F4D212737EB00B4898C /* RateDetailsView.xib */; };
+		88725F972123053B008B5D6C /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88725F952123053B008B5D6C /* HomeViewController.m */; };
+		88725F982123053B008B5D6C /* HomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88725F962123053B008B5D6C /* HomeView.xib */; };
+		88725F9C212308BA008B5D6C /* SlideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88725F9A212308BA008B5D6C /* SlideMenuViewController.m */; };
+		88725F9F21230A3A008B5D6C /* SlideMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88725F9E21230A3A008B5D6C /* SlideMenuView.xib */; };
+		88725FA321230AA7008B5D6C /* SimpleListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88725FA121230AA6008B5D6C /* SimpleListCell.xib */; };
+		88725FA421230AA7008B5D6C /* SimpleListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88725FA221230AA6008B5D6C /* SimpleListCell.m */; };
 		887739442118561A0017CDE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 887739432118561A0017CDE5 /* AppDelegate.m */; };
 		887739472118561A0017CDE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 887739462118561A0017CDE5 /* ViewController.m */; };
 		8877394A2118561A0017CDE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 887739482118561A0017CDE5 /* Main.storyboard */; };
@@ -15,6 +45,66 @@
 		887739522118561D0017CDE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 887739512118561D0017CDE5 /* main.m */; };
 		8877395C2118561D0017CDE5 /* ImmofinancesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8877395B2118561D0017CDE5 /* ImmofinancesTests.m */; };
 		887739672118561D0017CDE5 /* ImmofinancesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 887739662118561D0017CDE5 /* ImmofinancesUITests.m */; };
+		887739772118B4DB0017CDE5 /* MonthlyPaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 887739752118B4DB0017CDE5 /* MonthlyPaymentViewController.m */; };
+		887739782118B4DB0017CDE5 /* MonthlyPaymentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 887739762118B4DB0017CDE5 /* MonthlyPaymentView.xib */; };
+		887B20D6213011C5002B6C17 /* ExpressCreditStep4View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 887B20D5213011C5002B6C17 /* ExpressCreditStep4View.xib */; };
+		887B20D9213011DA002B6C17 /* ExpressCreditStep4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 887B20D8213011DA002B6C17 /* ExpressCreditStep4ViewController.m */; };
+		887B20DC213026E8002B6C17 /* ExpressCreditStep5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 887B20DB213026E8002B6C17 /* ExpressCreditStep5ViewController.m */; };
+		887B20DE213026FB002B6C17 /* ExpressCreditStep5View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 887B20DD213026FB002B6C17 /* ExpressCreditStep5View.xib */; };
+		887B20E12130433D002B6C17 /* ExpressCreditStep6ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 887B20E02130433D002B6C17 /* ExpressCreditStep6ViewController.m */; };
+		887B20E5213043A3002B6C17 /* ExpressCreditStep6View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 887B20E4213043A3002B6C17 /* ExpressCreditStep6View.xib */; };
+		887C18642153C6DF007955A6 /* S.m in Sources */ = {isa = PBXBuildFile; fileRef = 887C18632153C6DF007955A6 /* S.m */; };
+		887C187B21219464005BAF49 /* NotaryFeesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 887C187921219464005BAF49 /* NotaryFeesViewController.m */; };
+		887C18832121C03C005BAF49 /* NotaryFeesView1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 887C18822121C03C005BAF49 /* NotaryFeesView1Controller.m */; };
+		887C18862121D52D005BAF49 /* NotaryFeesView4Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 887C18852121D52D005BAF49 /* NotaryFeesView4Controller.m */; };
+		887C188D2121D6FE005BAF49 /* NotaryFeesView5Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 887C188C2121D6FE005BAF49 /* NotaryFeesView5Controller.m */; };
+		887C18902121E40E005BAF49 /* NotaryFeesView2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 887C188F2121E40E005BAF49 /* NotaryFeesView2Controller.m */; };
+		887C18972121E6ED005BAF49 /* NotaryFeesView3Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 887C18962121E6ED005BAF49 /* NotaryFeesView3Controller.m */; };
+		887FF5392555E2FA0094E04E /* CreditExpressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 887FF5372555E2FA0094E04E /* CreditExpressViewController.m */; };
+		887FF53C2555E4460094E04E /* CreditExpressView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 887FF53B2555E4460094E04E /* CreditExpressView.xib */; };
+		887FF53F255610B90094E04E /* InsuranceComparatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 887FF53E255610B90094E04E /* InsuranceComparatorViewController.m */; };
+		887FF541255610EC0094E04E /* InsuranceComparatorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 887FF540255610EC0094E04E /* InsuranceComparatorView.xib */; };
+		888F70A1211B02F1005FBBCD /* BarometerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 888F709F211B02F1005FBBCD /* BarometerViewController.m */; };
+		888F70A4211B0363005FBBCD /* BarometerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 888F70A3211B0363005FBBCD /* BarometerView.xib */; };
+		8891BA36212ACBE200021DE0 /* DLRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8891BA35212ACBE200021DE0 /* DLRadioButton.m */; };
+		8891BA39212ACC4700021DE0 /* InsurancesComparatorStep1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8891BA38212ACC4700021DE0 /* InsurancesComparatorStep1ViewController.m */; };
+		8891BA3B212ACC9300021DE0 /* InsurancesComparatorStep1View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8891BA3A212ACC9300021DE0 /* InsurancesComparatorStep1View.xib */; };
+		8891BA3E212AEF0000021DE0 /* InsurancesComparatorStep2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8891BA3D212AEF0000021DE0 /* InsurancesComparatorStep2ViewController.m */; };
+		8891BA40212AEF1A00021DE0 /* InsurancesComparatorStep2View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8891BA3F212AEF1A00021DE0 /* InsurancesComparatorStep2View.xib */; };
+		8891BA43212B490F00021DE0 /* InsurancesComparatorStep4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8891BA42212B490F00021DE0 /* InsurancesComparatorStep4ViewController.m */; };
+		8891BA45212B492300021DE0 /* InsurancesComparatorStep4View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8891BA44212B492300021DE0 /* InsurancesComparatorStep4View.xib */; };
+		88929E66211A01FB00E97775 /* BorrowingCapacityView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88929E65211A01FB00E97775 /* BorrowingCapacityView.xib */; };
+		88929E69211A023100E97775 /* BorrowingCapacityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88929E68211A023100E97775 /* BorrowingCapacityViewController.m */; };
+		88929E6B211A088D00E97775 /* RepaymentPeriodView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88929E6A211A088D00E97775 /* RepaymentPeriodView.xib */; };
+		88929E6E211A08A600E97775 /* RepaymentPeriodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88929E6D211A08A600E97775 /* RepaymentPeriodViewController.m */; };
+		88A8BD2121D7C76D00770F51 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A8BD1F21D7C76D00770F51 /* NewsViewController.m */; };
+		88A8BD2221D7C76D00770F51 /* NewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88A8BD2021D7C76D00770F51 /* NewsViewController.xib */; };
+		88A8BD2621D7CA3400770F51 /* NewsCustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A8BD2421D7CA3400770F51 /* NewsCustomTableViewCell.m */; };
+		88A8BD2721D7CA3400770F51 /* NewsCustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88A8BD2521D7CA3400770F51 /* NewsCustomTableViewCell.xib */; };
+		88A8BD2A21D7CBC600770F51 /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A8BD2921D7CBC600770F51 /* News.m */; };
+		88A8BD2D21D7DC5900770F51 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A8BD2C21D7DC5900770F51 /* MBProgressHUD.m */; };
+		88A8BD3021D7DF6C00770F51 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A8BD2F21D7DF6C00770F51 /* Reachability.m */; };
+		88B049AD21243A1E00E6939A /* NotaryFeesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88B049AC21243A1E00E6939A /* NotaryFeesView.xib */; };
+		88B049AF212448AF00E6939A /* NotaryFeesView1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88B049AE212448AF00E6939A /* NotaryFeesView1.xib */; };
+		88B049B1212451A000E6939A /* NotaryFeesView4.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88B049B0212451A000E6939A /* NotaryFeesView4.xib */; };
+		88B049B3212456B600E6939A /* NotaryFeesView5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88B049B2212456B400E6939A /* NotaryFeesView5.xib */; };
+		88B049B521245CFA00E6939A /* NotaryFeesView2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88B049B421245CFA00E6939A /* NotaryFeesView2.xib */; };
+		88B049B7212464CA00E6939A /* NotaryFeesView3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88B049B6212464CA00E6939A /* NotaryFeesView3.xib */; };
+		88BBFBF121CE4B2D00F88F63 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BBFBE521CE4B2C00F88F63 /* AFHTTPSessionManager.m */; };
+		88BBFBF221CE4B2D00F88F63 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BBFBE821CE4B2C00F88F63 /* AFNetworkReachabilityManager.m */; };
+		88BBFBF321CE4B2D00F88F63 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BBFBEA21CE4B2C00F88F63 /* AFSecurityPolicy.m */; };
+		88BBFBF421CE4B2D00F88F63 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BBFBEC21CE4B2C00F88F63 /* AFURLRequestSerialization.m */; };
+		88BBFBF521CE4B2D00F88F63 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BBFBEE21CE4B2C00F88F63 /* AFURLResponseSerialization.m */; };
+		88BBFBF621CE4B2D00F88F63 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BBFBF021CE4B2C00F88F63 /* AFURLSessionManager.m */; };
+		88BBFC0C21CE4C5700F88F63 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BBFBF921CE4C5700F88F63 /* AFAutoPurgingImageCache.m */; };
+		88BBFC0D21CE4C5700F88F63 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BBFBFB21CE4C5700F88F63 /* AFImageDownloader.m */; };
+		88BBFC0E21CE4C5700F88F63 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BBFBFD21CE4C5700F88F63 /* AFNetworkActivityIndicatorManager.m */; };
+		88BBFC0F21CE4C5700F88F63 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BBFBFF21CE4C5700F88F63 /* UIActivityIndicatorView+AFNetworking.m */; };
+		88BBFC1021CE4C5700F88F63 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BBFC0121CE4C5700F88F63 /* UIButton+AFNetworking.m */; };
+		88BBFC1121CE4C5700F88F63 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BBFC0421CE4C5700F88F63 /* UIImageView+AFNetworking.m */; };
+		88BBFC1221CE4C5700F88F63 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BBFC0721CE4C5700F88F63 /* UIProgressView+AFNetworking.m */; };
+		88BBFC1321CE4C5700F88F63 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BBFC0921CE4C5700F88F63 /* UIRefreshControl+AFNetworking.m */; };
+		88BBFC1421CE4C5700F88F63 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BBFC0B21CE4C5700F88F63 /* UIWebView+AFNetworking.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +125,50 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		88073CD82593DDA0008095B7 /* rss.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = rss.json; sourceTree = "<group>"; };
+		882D1296212C25E7003F9EB0 /* InsurancesComparatorStep3View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InsurancesComparatorStep3View.xib; sourceTree = "<group>"; };
+		882D1298212C25FB003F9EB0 /* InsurancesComparatorStep3ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsurancesComparatorStep3ViewController.h; sourceTree = "<group>"; };
+		882D1299212C25FB003F9EB0 /* InsurancesComparatorStep3ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InsurancesComparatorStep3ViewController.m; sourceTree = "<group>"; };
+		882D129B212C55D5003F9EB0 /* ExpressCreditStep1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExpressCreditStep1ViewController.h; sourceTree = "<group>"; };
+		882D129C212C55D5003F9EB0 /* ExpressCreditStep1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExpressCreditStep1ViewController.m; sourceTree = "<group>"; };
+		882D12A0212C5687003F9EB0 /* ExpressCreditStep1View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExpressCreditStep1View.xib; sourceTree = "<group>"; };
+		882D12A2212C5DE7003F9EB0 /* ExpressCreditStep2View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExpressCreditStep2View.xib; sourceTree = "<group>"; };
+		882D12A4212C5DFF003F9EB0 /* ExpressCreditStep2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExpressCreditStep2ViewController.h; sourceTree = "<group>"; };
+		882D12A5212C5DFF003F9EB0 /* ExpressCreditStep2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExpressCreditStep2ViewController.m; sourceTree = "<group>"; };
+		882D12A7212C6007003F9EB0 /* DetailsView1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsView1.xib; sourceTree = "<group>"; };
+		882D12A9212C6340003F9EB0 /* DetailsView1Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsView1Controller.h; sourceTree = "<group>"; };
+		882D12AA212C6340003F9EB0 /* DetailsView1Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsView1Controller.m; sourceTree = "<group>"; };
+		882D12AC212C7C35003F9EB0 /* DetailsView2Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsView2Controller.h; sourceTree = "<group>"; };
+		882D12AD212C7C35003F9EB0 /* DetailsView2Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsView2Controller.m; sourceTree = "<group>"; };
+		882D12AF212C7C44003F9EB0 /* DetailsView2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailsView2.xib; sourceTree = "<group>"; };
+		882D12B1212C7F9D003F9EB0 /* RateExplanationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RateExplanationView.xib; sourceTree = "<group>"; };
+		882D12B3212C7FB7003F9EB0 /* RateExplanationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RateExplanationViewController.h; sourceTree = "<group>"; };
+		882D12B4212C7FB7003F9EB0 /* RateExplanationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RateExplanationViewController.m; sourceTree = "<group>"; };
+		8833F1D6213423A900A87BE7 /* DetailsView3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailsView3.xib; sourceTree = "<group>"; };
+		8833F1D8213423DA00A87BE7 /* DetailsView3Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsView3Controller.h; sourceTree = "<group>"; };
+		8833F1D9213423DA00A87BE7 /* DetailsView3Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsView3Controller.m; sourceTree = "<group>"; };
+		8833F1DB2134424B00A87BE7 /* PersonalAreaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonalAreaViewController.h; sourceTree = "<group>"; };
+		8833F1DC2134424B00A87BE7 /* PersonalAreaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonalAreaViewController.m; sourceTree = "<group>"; };
+		8833F1DE213442E100A87BE7 /* PersonalAreaView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalAreaView.xib; sourceTree = "<group>"; };
+		8833F1E021344EA400A87BE7 /* ContactView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactView.xib; sourceTree = "<group>"; };
+		8833F1E221344EB800A87BE7 /* ContactViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
+		8833F1E321344EB800A87BE7 /* ContactViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
+		8837393921355A7E00B947C6 /* ExpressCreditStep3ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExpressCreditStep3ViewController.h; sourceTree = "<group>"; };
+		8837393A21355A7E00B947C6 /* ExpressCreditStep3ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExpressCreditStep3ViewController.m; sourceTree = "<group>"; };
+		8837393C21355A9A00B947C6 /* ExpressCreditStep3View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExpressCreditStep3View.xib; sourceTree = "<group>"; };
+		885E4DA32586A50800B364B8 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		886A9F4A212737A600B4898C /* RateDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RateDetailsViewController.h; sourceTree = "<group>"; };
+		886A9F4B212737A600B4898C /* RateDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RateDetailsViewController.m; sourceTree = "<group>"; };
+		886A9F4D212737EB00B4898C /* RateDetailsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RateDetailsView.xib; sourceTree = "<group>"; };
+		88725F942123053B008B5D6C /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		88725F952123053B008B5D6C /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		88725F962123053B008B5D6C /* HomeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeView.xib; sourceTree = "<group>"; };
+		88725F99212308B9008B5D6C /* SlideMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideMenuViewController.h; sourceTree = "<group>"; };
+		88725F9A212308BA008B5D6C /* SlideMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideMenuViewController.m; sourceTree = "<group>"; };
+		88725F9E21230A3A008B5D6C /* SlideMenuView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SlideMenuView.xib; sourceTree = "<group>"; };
+		88725FA021230AA6008B5D6C /* SimpleListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleListCell.h; sourceTree = "<group>"; };
+		88725FA121230AA6008B5D6C /* SimpleListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleListCell.xib; sourceTree = "<group>"; };
+		88725FA221230AA6008B5D6C /* SimpleListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleListCell.m; sourceTree = "<group>"; };
 		8877393F2118561A0017CDE5 /* Immofinances.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Immofinances.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		887739422118561A0017CDE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		887739432118561A0017CDE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +185,110 @@
 		887739622118561D0017CDE5 /* ImmofinancesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImmofinancesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		887739662118561D0017CDE5 /* ImmofinancesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImmofinancesUITests.m; sourceTree = "<group>"; };
 		887739682118561D0017CDE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		887739742118B4DB0017CDE5 /* MonthlyPaymentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MonthlyPaymentViewController.h; sourceTree = "<group>"; };
+		887739752118B4DB0017CDE5 /* MonthlyPaymentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MonthlyPaymentViewController.m; sourceTree = "<group>"; };
+		887739762118B4DB0017CDE5 /* MonthlyPaymentView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MonthlyPaymentView.xib; sourceTree = "<group>"; };
+		887B20D5213011C5002B6C17 /* ExpressCreditStep4View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExpressCreditStep4View.xib; sourceTree = "<group>"; };
+		887B20D7213011DA002B6C17 /* ExpressCreditStep4ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExpressCreditStep4ViewController.h; sourceTree = "<group>"; };
+		887B20D8213011DA002B6C17 /* ExpressCreditStep4ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExpressCreditStep4ViewController.m; sourceTree = "<group>"; };
+		887B20DA213026E8002B6C17 /* ExpressCreditStep5ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExpressCreditStep5ViewController.h; sourceTree = "<group>"; };
+		887B20DB213026E8002B6C17 /* ExpressCreditStep5ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExpressCreditStep5ViewController.m; sourceTree = "<group>"; };
+		887B20DD213026FB002B6C17 /* ExpressCreditStep5View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExpressCreditStep5View.xib; sourceTree = "<group>"; };
+		887B20DF2130433D002B6C17 /* ExpressCreditStep6ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExpressCreditStep6ViewController.h; sourceTree = "<group>"; };
+		887B20E02130433D002B6C17 /* ExpressCreditStep6ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExpressCreditStep6ViewController.m; sourceTree = "<group>"; };
+		887B20E4213043A3002B6C17 /* ExpressCreditStep6View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExpressCreditStep6View.xib; sourceTree = "<group>"; };
+		887C18632153C6DF007955A6 /* S.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = S.m; sourceTree = "<group>"; };
+		887C18652153C6F6007955A6 /* S.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = S.h; sourceTree = "<group>"; };
+		887C187821219464005BAF49 /* NotaryFeesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotaryFeesViewController.h; sourceTree = "<group>"; };
+		887C187921219464005BAF49 /* NotaryFeesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotaryFeesViewController.m; sourceTree = "<group>"; };
+		887C18812121C03C005BAF49 /* NotaryFeesView1Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotaryFeesView1Controller.h; sourceTree = "<group>"; };
+		887C18822121C03C005BAF49 /* NotaryFeesView1Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotaryFeesView1Controller.m; sourceTree = "<group>"; };
+		887C18842121D52D005BAF49 /* NotaryFeesView4Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotaryFeesView4Controller.h; sourceTree = "<group>"; };
+		887C18852121D52D005BAF49 /* NotaryFeesView4Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotaryFeesView4Controller.m; sourceTree = "<group>"; };
+		887C188B2121D6FE005BAF49 /* NotaryFeesView5Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotaryFeesView5Controller.h; sourceTree = "<group>"; };
+		887C188C2121D6FE005BAF49 /* NotaryFeesView5Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotaryFeesView5Controller.m; sourceTree = "<group>"; };
+		887C188E2121E40E005BAF49 /* NotaryFeesView2Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotaryFeesView2Controller.h; sourceTree = "<group>"; };
+		887C188F2121E40E005BAF49 /* NotaryFeesView2Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotaryFeesView2Controller.m; sourceTree = "<group>"; };
+		887C18952121E6ED005BAF49 /* NotaryFeesView3Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotaryFeesView3Controller.h; sourceTree = "<group>"; };
+		887C18962121E6ED005BAF49 /* NotaryFeesView3Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotaryFeesView3Controller.m; sourceTree = "<group>"; };
+		887FF5362555E2FA0094E04E /* CreditExpressViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreditExpressViewController.h; sourceTree = "<group>"; };
+		887FF5372555E2FA0094E04E /* CreditExpressViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreditExpressViewController.m; sourceTree = "<group>"; };
+		887FF53B2555E4460094E04E /* CreditExpressView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreditExpressView.xib; sourceTree = "<group>"; };
+		887FF53D255610880094E04E /* InsuranceComparatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsuranceComparatorViewController.h; sourceTree = "<group>"; };
+		887FF53E255610B90094E04E /* InsuranceComparatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsuranceComparatorViewController.m; sourceTree = "<group>"; };
+		887FF540255610EC0094E04E /* InsuranceComparatorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InsuranceComparatorView.xib; sourceTree = "<group>"; };
+		888F709E211B02F1005FBBCD /* BarometerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BarometerViewController.h; sourceTree = "<group>"; };
+		888F709F211B02F1005FBBCD /* BarometerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarometerViewController.m; sourceTree = "<group>"; };
+		888F70A3211B0363005FBBCD /* BarometerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BarometerView.xib; sourceTree = "<group>"; };
+		8891BA34212ACBD100021DE0 /* DLRadioButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLRadioButton.h; sourceTree = "<group>"; };
+		8891BA35212ACBE200021DE0 /* DLRadioButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLRadioButton.m; sourceTree = "<group>"; };
+		8891BA37212ACC4700021DE0 /* InsurancesComparatorStep1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsurancesComparatorStep1ViewController.h; sourceTree = "<group>"; };
+		8891BA38212ACC4700021DE0 /* InsurancesComparatorStep1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InsurancesComparatorStep1ViewController.m; sourceTree = "<group>"; };
+		8891BA3A212ACC9300021DE0 /* InsurancesComparatorStep1View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InsurancesComparatorStep1View.xib; sourceTree = "<group>"; };
+		8891BA3C212AEF0000021DE0 /* InsurancesComparatorStep2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsurancesComparatorStep2ViewController.h; sourceTree = "<group>"; };
+		8891BA3D212AEF0000021DE0 /* InsurancesComparatorStep2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InsurancesComparatorStep2ViewController.m; sourceTree = "<group>"; };
+		8891BA3F212AEF1A00021DE0 /* InsurancesComparatorStep2View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InsurancesComparatorStep2View.xib; sourceTree = "<group>"; };
+		8891BA41212B490F00021DE0 /* InsurancesComparatorStep4ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsurancesComparatorStep4ViewController.h; sourceTree = "<group>"; };
+		8891BA42212B490F00021DE0 /* InsurancesComparatorStep4ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InsurancesComparatorStep4ViewController.m; sourceTree = "<group>"; };
+		8891BA44212B492300021DE0 /* InsurancesComparatorStep4View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InsurancesComparatorStep4View.xib; sourceTree = "<group>"; };
+		88929E65211A01FB00E97775 /* BorrowingCapacityView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BorrowingCapacityView.xib; sourceTree = "<group>"; };
+		88929E67211A023100E97775 /* BorrowingCapacityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BorrowingCapacityViewController.h; sourceTree = "<group>"; };
+		88929E68211A023100E97775 /* BorrowingCapacityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BorrowingCapacityViewController.m; sourceTree = "<group>"; };
+		88929E6A211A088D00E97775 /* RepaymentPeriodView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RepaymentPeriodView.xib; sourceTree = "<group>"; };
+		88929E6C211A08A600E97775 /* RepaymentPeriodViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RepaymentPeriodViewController.h; sourceTree = "<group>"; };
+		88929E6D211A08A600E97775 /* RepaymentPeriodViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RepaymentPeriodViewController.m; sourceTree = "<group>"; };
+		88A8BD1E21D7C76D00770F51 /* NewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		88A8BD1F21D7C76D00770F51 /* NewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		88A8BD2021D7C76D00770F51 /* NewsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsViewController.xib; sourceTree = "<group>"; };
+		88A8BD2321D7CA3400770F51 /* NewsCustomTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsCustomTableViewCell.h; sourceTree = "<group>"; };
+		88A8BD2421D7CA3400770F51 /* NewsCustomTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsCustomTableViewCell.m; sourceTree = "<group>"; };
+		88A8BD2521D7CA3400770F51 /* NewsCustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsCustomTableViewCell.xib; sourceTree = "<group>"; };
+		88A8BD2821D7CBC600770F51 /* News.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
+		88A8BD2921D7CBC600770F51 /* News.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
+		88A8BD2B21D7DC5900770F51 /* MBProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		88A8BD2C21D7DC5900770F51 /* MBProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		88A8BD2E21D7DF6C00770F51 /* Reachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		88A8BD2F21D7DF6C00770F51 /* Reachability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		88B049AC21243A1E00E6939A /* NotaryFeesView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotaryFeesView.xib; sourceTree = "<group>"; };
+		88B049AE212448AF00E6939A /* NotaryFeesView1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotaryFeesView1.xib; sourceTree = "<group>"; };
+		88B049B0212451A000E6939A /* NotaryFeesView4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotaryFeesView4.xib; sourceTree = "<group>"; };
+		88B049B2212456B400E6939A /* NotaryFeesView5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotaryFeesView5.xib; sourceTree = "<group>"; };
+		88B049B421245CFA00E6939A /* NotaryFeesView2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotaryFeesView2.xib; sourceTree = "<group>"; };
+		88B049B6212464CA00E6939A /* NotaryFeesView3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotaryFeesView3.xib; sourceTree = "<group>"; };
+		88BBFBE321CE4B2C00F88F63 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFCompatibilityMacros.h; sourceTree = "<group>"; };
+		88BBFBE421CE4B2C00F88F63 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		88BBFBE521CE4B2C00F88F63 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		88BBFBE621CE4B2C00F88F63 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		88BBFBE721CE4B2C00F88F63 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		88BBFBE821CE4B2C00F88F63 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		88BBFBE921CE4B2C00F88F63 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		88BBFBEA21CE4B2C00F88F63 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		88BBFBEB21CE4B2C00F88F63 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		88BBFBEC21CE4B2C00F88F63 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		88BBFBED21CE4B2C00F88F63 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		88BBFBEE21CE4B2C00F88F63 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		88BBFBEF21CE4B2C00F88F63 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		88BBFBF021CE4B2C00F88F63 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		88BBFBF821CE4C5700F88F63 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAutoPurgingImageCache.h; sourceTree = "<group>"; };
+		88BBFBF921CE4C5700F88F63 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAutoPurgingImageCache.m; sourceTree = "<group>"; };
+		88BBFBFA21CE4C5700F88F63 /* AFImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageDownloader.h; sourceTree = "<group>"; };
+		88BBFBFB21CE4C5700F88F63 /* AFImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageDownloader.m; sourceTree = "<group>"; };
+		88BBFBFC21CE4C5700F88F63 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		88BBFBFD21CE4C5700F88F63 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		88BBFBFE21CE4C5700F88F63 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		88BBFBFF21CE4C5700F88F63 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		88BBFC0021CE4C5700F88F63 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		88BBFC0121CE4C5700F88F63 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		88BBFC0221CE4C5700F88F63 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		88BBFC0321CE4C5700F88F63 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		88BBFC0421CE4C5700F88F63 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		88BBFC0521CE4C5700F88F63 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		88BBFC0621CE4C5700F88F63 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		88BBFC0721CE4C5700F88F63 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		88BBFC0821CE4C5700F88F63 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		88BBFC0921CE4C5700F88F63 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		88BBFC0A21CE4C5700F88F63 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		88BBFC0B21CE4C5700F88F63 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +296,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				885E4DA42586A50800B364B8 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +317,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		885E4DA22586A50800B364B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				885E4DA32586A50800B364B8 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		887739362118561A0017CDE5 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +332,7 @@
 				8877395A2118561D0017CDE5 /* ImmofinancesTests */,
 				887739652118561D0017CDE5 /* ImmofinancesUITests */,
 				887739402118561A0017CDE5 /* Products */,
+				885E4DA22586A50800B364B8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +358,121 @@
 				8877394D2118561D0017CDE5 /* LaunchScreen.storyboard */,
 				887739502118561D0017CDE5 /* Info.plist */,
 				887739512118561D0017CDE5 /* main.m */,
+				88725F942123053B008B5D6C /* HomeViewController.h */,
+				88725F952123053B008B5D6C /* HomeViewController.m */,
+				88725F962123053B008B5D6C /* HomeView.xib */,
+				886A9F4A212737A600B4898C /* RateDetailsViewController.h */,
+				886A9F4B212737A600B4898C /* RateDetailsViewController.m */,
+				886A9F4D212737EB00B4898C /* RateDetailsView.xib */,
+				882D12B3212C7FB7003F9EB0 /* RateExplanationViewController.h */,
+				882D12B4212C7FB7003F9EB0 /* RateExplanationViewController.m */,
+				882D12B1212C7F9D003F9EB0 /* RateExplanationView.xib */,
+				887739742118B4DB0017CDE5 /* MonthlyPaymentViewController.h */,
+				887739752118B4DB0017CDE5 /* MonthlyPaymentViewController.m */,
+				887739762118B4DB0017CDE5 /* MonthlyPaymentView.xib */,
+				88929E67211A023100E97775 /* BorrowingCapacityViewController.h */,
+				88929E68211A023100E97775 /* BorrowingCapacityViewController.m */,
+				88929E65211A01FB00E97775 /* BorrowingCapacityView.xib */,
+				88929E6C211A08A600E97775 /* RepaymentPeriodViewController.h */,
+				88929E6D211A08A600E97775 /* RepaymentPeriodViewController.m */,
+				88929E6A211A088D00E97775 /* RepaymentPeriodView.xib */,
+				888F709E211B02F1005FBBCD /* BarometerViewController.h */,
+				888F709F211B02F1005FBBCD /* BarometerViewController.m */,
+				888F70A3211B0363005FBBCD /* BarometerView.xib */,
+				887C187821219464005BAF49 /* NotaryFeesViewController.h */,
+				887C187921219464005BAF49 /* NotaryFeesViewController.m */,
+				88B049AC21243A1E00E6939A /* NotaryFeesView.xib */,
+				887C18812121C03C005BAF49 /* NotaryFeesView1Controller.h */,
+				887C18822121C03C005BAF49 /* NotaryFeesView1Controller.m */,
+				88B049AE212448AF00E6939A /* NotaryFeesView1.xib */,
+				887C188E2121E40E005BAF49 /* NotaryFeesView2Controller.h */,
+				887C188F2121E40E005BAF49 /* NotaryFeesView2Controller.m */,
+				88B049B421245CFA00E6939A /* NotaryFeesView2.xib */,
+				887C18952121E6ED005BAF49 /* NotaryFeesView3Controller.h */,
+				887C18962121E6ED005BAF49 /* NotaryFeesView3Controller.m */,
+				88B049B6212464CA00E6939A /* NotaryFeesView3.xib */,
+				887C18842121D52D005BAF49 /* NotaryFeesView4Controller.h */,
+				887C18852121D52D005BAF49 /* NotaryFeesView4Controller.m */,
+				88B049B0212451A000E6939A /* NotaryFeesView4.xib */,
+				887C188B2121D6FE005BAF49 /* NotaryFeesView5Controller.h */,
+				887C188C2121D6FE005BAF49 /* NotaryFeesView5Controller.m */,
+				88B049B2212456B400E6939A /* NotaryFeesView5.xib */,
+				88725F99212308B9008B5D6C /* SlideMenuViewController.h */,
+				88725F9A212308BA008B5D6C /* SlideMenuViewController.m */,
+				88725F9E21230A3A008B5D6C /* SlideMenuView.xib */,
+				88725FA021230AA6008B5D6C /* SimpleListCell.h */,
+				88725FA221230AA6008B5D6C /* SimpleListCell.m */,
+				88725FA121230AA6008B5D6C /* SimpleListCell.xib */,
+				8891BA34212ACBD100021DE0 /* DLRadioButton.h */,
+				8891BA35212ACBE200021DE0 /* DLRadioButton.m */,
+				8891BA37212ACC4700021DE0 /* InsurancesComparatorStep1ViewController.h */,
+				8891BA38212ACC4700021DE0 /* InsurancesComparatorStep1ViewController.m */,
+				8891BA3A212ACC9300021DE0 /* InsurancesComparatorStep1View.xib */,
+				8891BA3C212AEF0000021DE0 /* InsurancesComparatorStep2ViewController.h */,
+				8891BA3D212AEF0000021DE0 /* InsurancesComparatorStep2ViewController.m */,
+				8891BA3F212AEF1A00021DE0 /* InsurancesComparatorStep2View.xib */,
+				882D1298212C25FB003F9EB0 /* InsurancesComparatorStep3ViewController.h */,
+				882D1299212C25FB003F9EB0 /* InsurancesComparatorStep3ViewController.m */,
+				882D1296212C25E7003F9EB0 /* InsurancesComparatorStep3View.xib */,
+				8891BA41212B490F00021DE0 /* InsurancesComparatorStep4ViewController.h */,
+				8891BA42212B490F00021DE0 /* InsurancesComparatorStep4ViewController.m */,
+				8891BA44212B492300021DE0 /* InsurancesComparatorStep4View.xib */,
+				882D129B212C55D5003F9EB0 /* ExpressCreditStep1ViewController.h */,
+				882D129C212C55D5003F9EB0 /* ExpressCreditStep1ViewController.m */,
+				882D12A0212C5687003F9EB0 /* ExpressCreditStep1View.xib */,
+				882D12A4212C5DFF003F9EB0 /* ExpressCreditStep2ViewController.h */,
+				882D12A5212C5DFF003F9EB0 /* ExpressCreditStep2ViewController.m */,
+				882D12A2212C5DE7003F9EB0 /* ExpressCreditStep2View.xib */,
+				8837393921355A7E00B947C6 /* ExpressCreditStep3ViewController.h */,
+				8837393A21355A7E00B947C6 /* ExpressCreditStep3ViewController.m */,
+				8837393C21355A9A00B947C6 /* ExpressCreditStep3View.xib */,
+				887B20D7213011DA002B6C17 /* ExpressCreditStep4ViewController.h */,
+				887B20D8213011DA002B6C17 /* ExpressCreditStep4ViewController.m */,
+				887B20D5213011C5002B6C17 /* ExpressCreditStep4View.xib */,
+				887B20DA213026E8002B6C17 /* ExpressCreditStep5ViewController.h */,
+				887B20DB213026E8002B6C17 /* ExpressCreditStep5ViewController.m */,
+				887B20DD213026FB002B6C17 /* ExpressCreditStep5View.xib */,
+				887B20DF2130433D002B6C17 /* ExpressCreditStep6ViewController.h */,
+				887B20E02130433D002B6C17 /* ExpressCreditStep6ViewController.m */,
+				887B20E4213043A3002B6C17 /* ExpressCreditStep6View.xib */,
+				8833F1DB2134424B00A87BE7 /* PersonalAreaViewController.h */,
+				8833F1DC2134424B00A87BE7 /* PersonalAreaViewController.m */,
+				8833F1DE213442E100A87BE7 /* PersonalAreaView.xib */,
+				887FF53D255610880094E04E /* InsuranceComparatorViewController.h */,
+				887FF53E255610B90094E04E /* InsuranceComparatorViewController.m */,
+				887FF540255610EC0094E04E /* InsuranceComparatorView.xib */,
+				8833F1E221344EB800A87BE7 /* ContactViewController.h */,
+				8833F1E321344EB800A87BE7 /* ContactViewController.m */,
+				8833F1E021344EA400A87BE7 /* ContactView.xib */,
+				88A8BD1E21D7C76D00770F51 /* NewsViewController.h */,
+				88A8BD1F21D7C76D00770F51 /* NewsViewController.m */,
+				88A8BD2021D7C76D00770F51 /* NewsViewController.xib */,
+				887FF5362555E2FA0094E04E /* CreditExpressViewController.h */,
+				887FF5372555E2FA0094E04E /* CreditExpressViewController.m */,
+				887FF53B2555E4460094E04E /* CreditExpressView.xib */,
+				882D12A9212C6340003F9EB0 /* DetailsView1Controller.h */,
+				882D12AA212C6340003F9EB0 /* DetailsView1Controller.m */,
+				882D12A7212C6007003F9EB0 /* DetailsView1.xib */,
+				882D12AC212C7C35003F9EB0 /* DetailsView2Controller.h */,
+				882D12AD212C7C35003F9EB0 /* DetailsView2Controller.m */,
+				882D12AF212C7C44003F9EB0 /* DetailsView2.xib */,
+				8833F1D8213423DA00A87BE7 /* DetailsView3Controller.h */,
+				8833F1D9213423DA00A87BE7 /* DetailsView3Controller.m */,
+				8833F1D6213423A900A87BE7 /* DetailsView3.xib */,
+				887C18652153C6F6007955A6 /* S.h */,
+				887C18632153C6DF007955A6 /* S.m */,
+				88BBFBF721CE4C5700F88F63 /* UIKit+AFNetworking */,
+				88BBFBE221CE4B2C00F88F63 /* AFNetworking */,
+				88A8BD2321D7CA3400770F51 /* NewsCustomTableViewCell.h */,
+				88A8BD2421D7CA3400770F51 /* NewsCustomTableViewCell.m */,
+				88A8BD2521D7CA3400770F51 /* NewsCustomTableViewCell.xib */,
+				88A8BD2821D7CBC600770F51 /* News.h */,
+				88A8BD2921D7CBC600770F51 /* News.m */,
+				88A8BD2B21D7DC5900770F51 /* MBProgressHUD.h */,
+				88A8BD2C21D7DC5900770F51 /* MBProgressHUD.m */,
+				88A8BD2E21D7DF6C00770F51 /* Reachability.h */,
+				88A8BD2F21D7DF6C00770F51 /* Reachability.m */,
+				88073CD82593DDA0008095B7 /* rss.json */,
 			);
 			path = Immofinances;
 			sourceTree = "<group>";
@@ -130,6 +493,54 @@
 				887739682118561D0017CDE5 /* Info.plist */,
 			);
 			path = ImmofinancesUITests;
+			sourceTree = "<group>";
+		};
+		88BBFBE221CE4B2C00F88F63 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				88BBFBE321CE4B2C00F88F63 /* AFCompatibilityMacros.h */,
+				88BBFBE421CE4B2C00F88F63 /* AFHTTPSessionManager.h */,
+				88BBFBE521CE4B2C00F88F63 /* AFHTTPSessionManager.m */,
+				88BBFBE621CE4B2C00F88F63 /* AFNetworking.h */,
+				88BBFBE721CE4B2C00F88F63 /* AFNetworkReachabilityManager.h */,
+				88BBFBE821CE4B2C00F88F63 /* AFNetworkReachabilityManager.m */,
+				88BBFBE921CE4B2C00F88F63 /* AFSecurityPolicy.h */,
+				88BBFBEA21CE4B2C00F88F63 /* AFSecurityPolicy.m */,
+				88BBFBEB21CE4B2C00F88F63 /* AFURLRequestSerialization.h */,
+				88BBFBEC21CE4B2C00F88F63 /* AFURLRequestSerialization.m */,
+				88BBFBED21CE4B2C00F88F63 /* AFURLResponseSerialization.h */,
+				88BBFBEE21CE4B2C00F88F63 /* AFURLResponseSerialization.m */,
+				88BBFBEF21CE4B2C00F88F63 /* AFURLSessionManager.h */,
+				88BBFBF021CE4B2C00F88F63 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		88BBFBF721CE4C5700F88F63 /* UIKit+AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				88BBFBF821CE4C5700F88F63 /* AFAutoPurgingImageCache.h */,
+				88BBFBF921CE4C5700F88F63 /* AFAutoPurgingImageCache.m */,
+				88BBFBFA21CE4C5700F88F63 /* AFImageDownloader.h */,
+				88BBFBFB21CE4C5700F88F63 /* AFImageDownloader.m */,
+				88BBFBFC21CE4C5700F88F63 /* AFNetworkActivityIndicatorManager.h */,
+				88BBFBFD21CE4C5700F88F63 /* AFNetworkActivityIndicatorManager.m */,
+				88BBFBFE21CE4C5700F88F63 /* UIActivityIndicatorView+AFNetworking.h */,
+				88BBFBFF21CE4C5700F88F63 /* UIActivityIndicatorView+AFNetworking.m */,
+				88BBFC0021CE4C5700F88F63 /* UIButton+AFNetworking.h */,
+				88BBFC0121CE4C5700F88F63 /* UIButton+AFNetworking.m */,
+				88BBFC0221CE4C5700F88F63 /* UIImage+AFNetworking.h */,
+				88BBFC0321CE4C5700F88F63 /* UIImageView+AFNetworking.h */,
+				88BBFC0421CE4C5700F88F63 /* UIImageView+AFNetworking.m */,
+				88BBFC0521CE4C5700F88F63 /* UIKit+AFNetworking.h */,
+				88BBFC0621CE4C5700F88F63 /* UIProgressView+AFNetworking.h */,
+				88BBFC0721CE4C5700F88F63 /* UIProgressView+AFNetworking.m */,
+				88BBFC0821CE4C5700F88F63 /* UIRefreshControl+AFNetworking.h */,
+				88BBFC0921CE4C5700F88F63 /* UIRefreshControl+AFNetworking.m */,
+				88BBFC0A21CE4C5700F88F63 /* UIWebView+AFNetworking.h */,
+				88BBFC0B21CE4C5700F88F63 /* UIWebView+AFNetworking.m */,
+			);
+			path = "UIKit+AFNetworking";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +610,7 @@
 				TargetAttributes = {
 					8877393E2118561A0017CDE5 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1010;
 					};
 					887739562118561D0017CDE5 = {
 						CreatedOnToolsVersion = 10.0;
@@ -235,9 +647,44 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88B049AF212448AF00E6939A /* NotaryFeesView1.xib in Resources */,
+				88A8BD2221D7C76D00770F51 /* NewsViewController.xib in Resources */,
+				88B049B521245CFA00E6939A /* NotaryFeesView2.xib in Resources */,
+				882D12A1212C5687003F9EB0 /* ExpressCreditStep1View.xib in Resources */,
+				887FF53C2555E4460094E04E /* CreditExpressView.xib in Resources */,
+				8833F1D7213423AA00A87BE7 /* DetailsView3.xib in Resources */,
+				882D12A8212C6007003F9EB0 /* DetailsView1.xib in Resources */,
+				882D12B2212C7F9E003F9EB0 /* RateExplanationView.xib in Resources */,
+				88073CD92593DDA0008095B7 /* rss.json in Resources */,
+				88B049B7212464CA00E6939A /* NotaryFeesView3.xib in Resources */,
+				8833F1E121344EA500A87BE7 /* ContactView.xib in Resources */,
 				8877394F2118561D0017CDE5 /* LaunchScreen.storyboard in Resources */,
+				8891BA40212AEF1A00021DE0 /* InsurancesComparatorStep2View.xib in Resources */,
+				887B20DE213026FB002B6C17 /* ExpressCreditStep5View.xib in Resources */,
+				88929E6B211A088D00E97775 /* RepaymentPeriodView.xib in Resources */,
+				887B20D6213011C5002B6C17 /* ExpressCreditStep4View.xib in Resources */,
+				88B049B1212451A000E6939A /* NotaryFeesView4.xib in Resources */,
+				88B049B3212456B600E6939A /* NotaryFeesView5.xib in Resources */,
+				8891BA45212B492300021DE0 /* InsurancesComparatorStep4View.xib in Resources */,
+				88929E66211A01FB00E97775 /* BorrowingCapacityView.xib in Resources */,
+				88725F9F21230A3A008B5D6C /* SlideMenuView.xib in Resources */,
+				887B20E5213043A3002B6C17 /* ExpressCreditStep6View.xib in Resources */,
+				8833F1DF213442E100A87BE7 /* PersonalAreaView.xib in Resources */,
+				8891BA3B212ACC9300021DE0 /* InsurancesComparatorStep1View.xib in Resources */,
+				88A8BD2721D7CA3400770F51 /* NewsCustomTableViewCell.xib in Resources */,
 				8877394C2118561D0017CDE5 /* Assets.xcassets in Resources */,
+				882D12A3212C5DE7003F9EB0 /* ExpressCreditStep2View.xib in Resources */,
+				886A9F4E212737EC00B4898C /* RateDetailsView.xib in Resources */,
+				88725F982123053B008B5D6C /* HomeView.xib in Resources */,
+				888F70A4211B0363005FBBCD /* BarometerView.xib in Resources */,
+				88725FA321230AA7008B5D6C /* SimpleListCell.xib in Resources */,
+				887739782118B4DB0017CDE5 /* MonthlyPaymentView.xib in Resources */,
+				882D1297212C25E7003F9EB0 /* InsurancesComparatorStep3View.xib in Resources */,
+				887FF541255610EC0094E04E /* InsuranceComparatorView.xib in Resources */,
 				8877394A2118561A0017CDE5 /* Main.storyboard in Resources */,
+				882D12B0212C7C44003F9EB0 /* DetailsView2.xib in Resources */,
+				8837393D21355A9A00B947C6 /* ExpressCreditStep3View.xib in Resources */,
+				88B049AD21243A1E00E6939A /* NotaryFeesView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +709,63 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				887C18972121E6ED005BAF49 /* NotaryFeesView3Controller.m in Sources */,
+				88BBFC1321CE4C5700F88F63 /* UIRefreshControl+AFNetworking.m in Sources */,
+				882D12AB212C6340003F9EB0 /* DetailsView1Controller.m in Sources */,
+				88A8BD2A21D7CBC600770F51 /* News.m in Sources */,
+				887B20DC213026E8002B6C17 /* ExpressCreditStep5ViewController.m in Sources */,
+				88BBFBF121CE4B2D00F88F63 /* AFHTTPSessionManager.m in Sources */,
+				88BBFC0E21CE4C5700F88F63 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				882D129D212C55D5003F9EB0 /* ExpressCreditStep1ViewController.m in Sources */,
+				88BBFC0F21CE4C5700F88F63 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				882D12AE212C7C35003F9EB0 /* DetailsView2Controller.m in Sources */,
+				88BBFC1121CE4C5700F88F63 /* UIImageView+AFNetworking.m in Sources */,
+				88BBFBF621CE4B2D00F88F63 /* AFURLSessionManager.m in Sources */,
+				88BBFBF421CE4B2D00F88F63 /* AFURLRequestSerialization.m in Sources */,
+				88A8BD2D21D7DC5900770F51 /* MBProgressHUD.m in Sources */,
+				88A8BD3021D7DF6C00770F51 /* Reachability.m in Sources */,
+				88A8BD2121D7C76D00770F51 /* NewsViewController.m in Sources */,
+				88725FA421230AA7008B5D6C /* SimpleListCell.m in Sources */,
+				882D12A6212C5DFF003F9EB0 /* ExpressCreditStep2ViewController.m in Sources */,
+				88BBFBF321CE4B2D00F88F63 /* AFSecurityPolicy.m in Sources */,
 				887739472118561A0017CDE5 /* ViewController.m in Sources */,
+				887FF5392555E2FA0094E04E /* CreditExpressViewController.m in Sources */,
+				882D129A212C25FB003F9EB0 /* InsurancesComparatorStep3ViewController.m in Sources */,
+				88BBFC1221CE4C5700F88F63 /* UIProgressView+AFNetworking.m in Sources */,
+				887B20E12130433D002B6C17 /* ExpressCreditStep6ViewController.m in Sources */,
+				887C18832121C03C005BAF49 /* NotaryFeesView1Controller.m in Sources */,
+				88BBFBF521CE4B2D00F88F63 /* AFURLResponseSerialization.m in Sources */,
+				887FF53F255610B90094E04E /* InsuranceComparatorViewController.m in Sources */,
+				887B20D9213011DA002B6C17 /* ExpressCreditStep4ViewController.m in Sources */,
+				88BBFC1421CE4C5700F88F63 /* UIWebView+AFNetworking.m in Sources */,
+				8891BA3E212AEF0000021DE0 /* InsurancesComparatorStep2ViewController.m in Sources */,
+				887C18642153C6DF007955A6 /* S.m in Sources */,
+				88725F9C212308BA008B5D6C /* SlideMenuViewController.m in Sources */,
+				88929E6E211A08A600E97775 /* RepaymentPeriodViewController.m in Sources */,
+				8891BA43212B490F00021DE0 /* InsurancesComparatorStep4ViewController.m in Sources */,
+				887C18902121E40E005BAF49 /* NotaryFeesView2Controller.m in Sources */,
+				88BBFC0D21CE4C5700F88F63 /* AFImageDownloader.m in Sources */,
+				88A8BD2621D7CA3400770F51 /* NewsCustomTableViewCell.m in Sources */,
+				882D12B5212C7FB7003F9EB0 /* RateExplanationViewController.m in Sources */,
+				88725F972123053B008B5D6C /* HomeViewController.m in Sources */,
+				8833F1DD2134424B00A87BE7 /* PersonalAreaViewController.m in Sources */,
+				888F70A1211B02F1005FBBCD /* BarometerViewController.m in Sources */,
+				88BBFC1021CE4C5700F88F63 /* UIButton+AFNetworking.m in Sources */,
+				88929E69211A023100E97775 /* BorrowingCapacityViewController.m in Sources */,
+				8833F1DA213423DA00A87BE7 /* DetailsView3Controller.m in Sources */,
+				887C18862121D52D005BAF49 /* NotaryFeesView4Controller.m in Sources */,
+				887C187B21219464005BAF49 /* NotaryFeesViewController.m in Sources */,
+				887739772118B4DB0017CDE5 /* MonthlyPaymentViewController.m in Sources */,
+				8891BA36212ACBE200021DE0 /* DLRadioButton.m in Sources */,
+				88BBFC0C21CE4C5700F88F63 /* AFAutoPurgingImageCache.m in Sources */,
 				887739522118561D0017CDE5 /* main.m in Sources */,
+				8837393B21355A7E00B947C6 /* ExpressCreditStep3ViewController.m in Sources */,
+				8891BA39212ACC4700021DE0 /* InsurancesComparatorStep1ViewController.m in Sources */,
+				88BBFBF221CE4B2D00F88F63 /* AFNetworkReachabilityManager.m in Sources */,
+				887C188D2121D6FE005BAF49 /* NotaryFeesView5Controller.m in Sources */,
 				887739442118561A0017CDE5 /* AppDelegate.m in Sources */,
+				8833F1E421344EB800A87BE7 /* ContactViewController.m in Sources */,
+				886A9F4C212737A700B4898C /* RateDetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,7 +871,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -423,7 +924,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -435,16 +936,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M3768YX6F4;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = Q5QBBD278C;
 				INFOPLIST_FILE = Immofinances/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.comma-creations.Immofinances";
+				MARKETING_VERSION = 1.0.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.commacreations.app.Immofinances;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -452,16 +960,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M3768YX6F4;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = Q5QBBD278C;
 				INFOPLIST_FILE = Immofinances/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.comma-creations.Immofinances";
+				MARKETING_VERSION = 1.0.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.commacreations.app.Immofinances;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

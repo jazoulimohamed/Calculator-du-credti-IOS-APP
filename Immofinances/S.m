@@ -6,4 +6,13 @@
 //  Copyright © 2018 Aminowizc. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "S.h"
+
+@interface S ()
+
+@end
+
+@implementation S
+
+
+@end

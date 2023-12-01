@@ -31,21 +31,31 @@ alpha:1.0]
     // Do any additional setup after loading the view from its nib.
     
     // Header view.
-    self.itemsTableView.backgroundColor = UIColorFromRGB(0x878787);
+    self.itemsTableView.backgroundColor = UIColorFromRGB(0x909090);
     //0F7DC1
-    [self.itemsTableView setSeparatorColor:UIColorFromRGB(0xFFFFFF)];
+    //[self.itemsTableView setSeparatorColor:UIColorFromRGB(0xFFFFFF)];
+    self.itemsTableView.separatorColor = [UIColor clearColor];
     
     self.menusItems = [[NSDictionary alloc] init];
-    self.menusItems = @{NSLocalizedString(@"home", Nil): @[NSLocalizedString(@"home", Nil)], NSLocalizedString(@"reference", Nil): @[NSLocalizedString(@"areas", Nil), NSLocalizedString(@"groups", Nil), NSLocalizedString(@"formulas", Nil), NSLocalizedString(@"lexicon", Nil), NSLocalizedString(@"questions", Nil)],
+    /*self.menusItems = @{NSLocalizedString(@"home", Nil): @[NSLocalizedString(@"home", Nil)], NSLocalizedString(@"reference", Nil): @[NSLocalizedString(@"areas", Nil), NSLocalizedString(@"groups", Nil), NSLocalizedString(@"formulas", Nil), NSLocalizedString(@"lexicon", Nil), NSLocalizedString(@"questions", Nil)],
                         NSLocalizedString(@"settings", Nil): @[NSLocalizedString(@"language", Nil), NSLocalizedString(@"about", Nil), NSLocalizedString(@"exit", Nil)]
+                        };*/
+    
+    self.menusItems = @{@"Simulateurs": @[@"Détails des taux", @"Mensualités", @"Capacité d'emprunt", @"Durée de remboursement", @"Baromètre", @"Frais notaire"], @"Général": @[@"Espace privé", @"Crédit express", @"Comparateur assurances", @"Contact", @"Actualités", @"Vidéo présentation"]
                         };
     
-    self.menusIcons = @{@"HOME": @[@"LanguageIcon"],
+    /*self.menusIcons = @{@"HOME": @[@"LanguageIcon"],
                         @"REFERENCE": @[@"AreaIcon", @"GroupIcon", @"FormulaIcon", @"LexiconIcon", @"QuestionIcon"],
                         @"SETTINGS": @[@"LanguageIcon", @"AboutIcon", @"ExitIcon"]
+                        };*/
+    
+    self.menusIcons = @{@"Simulateurs": @[@"RateIcon", @"CalculatorIcon", @"OperationsIcon", @"CalendarIcon", @"SliderIcon", @"TagIcon"],
+                        @"Général": @[@"PersonalIcon", @"CreditIcon", @"InsuranceIcon", @"ContactIcon", @"NewsIcon", @"VideoIcon"]
                         };
     
     self.menuSectionTitles = [self.menusItems allKeys];
+    self.itemsTableView.alwaysBounceVertical = NO;
+    self.itemsTableView.scrollEnabled = NO;
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
@@ -58,7 +68,7 @@ alpha:1.0]
 
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
     UIView *sectionView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, tableView.bounds.size.width, 40.0)];
-    [sectionView setBackgroundColor:UIColorFromRGB(0x2B5F90)];
+    [sectionView setBackgroundColor:UIColorFromRGB(0x414342)];
     
     NSString *sectionTitle = [self tableView:tableView titleForHeaderInSection:section];
     if (sectionTitle == nil) {
@@ -66,12 +76,12 @@ alpha:1.0]
     }
     
     // Create label with section title
-    UILabel *sectionTitleLabel = [[UILabel alloc] initWithFrame:CGRectMake(30.00, 0.00, 300.00, 40.0)];
+    UILabel *sectionTitleLabel = [[UILabel alloc] initWithFrame:CGRectMake(10.00, 0.00, 300.00, 40.0)];
     //If you add a bit to x and decrease y, it will be more in line with the tableView cell (that is in iPad and landscape)
     sectionTitleLabel.backgroundColor = [UIColor clearColor];
-    sectionTitleLabel.textColor = [UIColor whiteColor];
-    sectionTitleLabel.font = [UIFont boldSystemFontOfSize:18];
-    sectionTitleLabel.font = [UIFont fontWithName:@"HelveticaNeue-Bold" size:18.0];
+    sectionTitleLabel.textColor = UIColorFromRGB(0x909090);
+    sectionTitleLabel.font = [UIFont boldSystemFontOfSize:16];
+    sectionTitleLabel.font = [UIFont fontWithName:@"HelveticaNeue-Bold" size:16.0];
     sectionTitleLabel.text = sectionTitle;
     
     [sectionView addSubview:sectionTitleLabel];
@@ -90,7 +100,7 @@ alpha:1.0]
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return 55.0;
+    return 35.0;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -104,7 +114,7 @@ alpha:1.0]
     
     //videosListCell.selectionStyle = UITableViewCellSelectionStyleNone;
     
-    simpleListCell.backgroundColor = UIColorFromRGB(0x878787);
+    simpleListCell.backgroundColor = UIColorFromRGB(0x909090);
     
     NSString *sectionTitle = [self.menuSectionTitles objectAtIndex:indexPath.section];
     
@@ -114,8 +124,8 @@ alpha:1.0]
     NSString *menuTitle = [sectionItems objectAtIndex:indexPath.row];
     simpleListCell.menuTitleLabel.text = menuTitle;
     
-    simpleListCell.imageView.image = [UIImage imageNamed:[sectionIcons objectAtIndex:indexPath.row]];
-    
+    simpleListCell.iconImageView.contentMode = UIViewContentModeScaleAspectFill;
+    simpleListCell.iconImageView.image = [UIImage imageNamed:[sectionIcons objectAtIndex:indexPath.row]];
     
     UIView *customColorView = [[UIView alloc] init];
     customColorView.backgroundColor = UIColorFromRGB(0xadadad);
@@ -132,7 +142,11 @@ alpha:1.0]
     //if you are doing any animation you have deselect the row here inside.
     [tableView endUpdates];
     
-    [self.delegate showView:indexPath.row];
+    if (indexPath.section == 0) {
+        [self.delegate showView:indexPath.row];
+    } else {
+        [self.delegate showView:indexPath.row + 6];
+    }
 }
 
 - (void)didReceiveMemoryWarning {

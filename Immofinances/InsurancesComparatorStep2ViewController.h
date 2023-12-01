@@ -7,10 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DetailsView2Controller.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface InsurancesComparatorStep2ViewController : UIViewController
+@protocol InsurancesComparatorStep2ViewControllerDelegate
+@optional
+- (void)goToInsurancesComparatorStep3View;
+- (void)returnToInsurancesComparatorStep1View;
+@end
+
+@interface InsurancesComparatorStep2ViewController : UIViewController <UIPickerViewDelegate, UIPickerViewDataSource, UITextFieldDelegate, DetailsView2ControllerDelegate>
+
+@property (nonatomic, weak) id <InsurancesComparatorStep2ViewControllerDelegate> delegate;
 
 @end
 

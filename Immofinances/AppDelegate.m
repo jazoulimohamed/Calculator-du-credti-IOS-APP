@@ -17,9 +17,24 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [self scaleSizeOfBigIphones];
+    
     return YES;
 }
 
+- (void)scaleSizeOfBigIphones {
+    NSLog(@"width %f", [UIScreen mainScreen].bounds.size.width);
+    if ([UIScreen mainScreen].bounds.size.width == 414.00){
+        NSLog(@"iPhone 6 Plus");
+        float startX = (414.00 / 2) - (375.00/2);
+        
+        float startY = (736.00 / 2) - (667.00/2);
+        
+        self.window.frame = CGRectMake(startX, startY, 375.00, 667.00);
+        
+        self.window.transform = CGAffineTransformMakeScale(1.104,1.103448);
+    }
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

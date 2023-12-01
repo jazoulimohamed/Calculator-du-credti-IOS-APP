@@ -10,7 +10,14 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@protocol InsurancesComparatorStep4ViewControllerDelegate
+@optional
+- (void)returnToInsurancesComparatorStep3View;
+@end
+
 @interface InsurancesComparatorStep4ViewController : UIViewController
+
+@property (nonatomic, weak) id <InsurancesComparatorStep4ViewControllerDelegate> delegate;
 
 @end
 

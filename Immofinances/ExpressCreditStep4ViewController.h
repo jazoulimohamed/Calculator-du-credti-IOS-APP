@@ -10,7 +10,15 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ExpressCreditView4Controller : UIViewController
+@protocol ExpressCreditStep4ViewControllerDelegate
+@optional
+- (void)goToExpressCreditStep5View;
+- (void)returnToExpressCreditStep3View;
+@end
+
+@interface ExpressCreditStep4ViewController : UIViewController <UIPickerViewDelegate, UIPickerViewDataSource, UITextFieldDelegate>
+
+@property (nonatomic, weak) id <ExpressCreditStep4ViewControllerDelegate> delegate;
 
 @end
 

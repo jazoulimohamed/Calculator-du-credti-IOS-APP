@@ -10,8 +10,23 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NotaryFeesView3Controller : UIViewController
-
+@protocol NotaryFeesView3ControllerDelegate
+@optional
+- (void)showPickerView2;
+- (void)estimateTotalValue;
 @end
 
+@interface NotaryFeesView3Controller : UIViewController
+
+@property (weak, nonatomic) IBOutlet UITextField *textField1;
+@property (weak, nonatomic) IBOutlet UISlider *slider1;
+@property (weak, nonatomic) IBOutlet UITextField *textField2;
+@property (weak, nonatomic) IBOutlet UISlider *slider2;
+@property (weak, nonatomic) IBOutlet UITextField *totalTextField1;
+@property (weak, nonatomic) IBOutlet UITextField *totalTextField2;
+
+@property (nonatomic, weak) id <NotaryFeesView3ControllerDelegate> delegate;
+@property (weak, nonatomic) IBOutlet UIButton *buttonPicker;
+
+@end
 NS_ASSUME_NONNULL_END

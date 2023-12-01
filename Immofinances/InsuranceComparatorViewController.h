@@ -7,17 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <WebKit/WebKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@protocol PersonalAreaViewControllerDelegate
+@protocol InsuranceComparatorViewControllerDelegate
 @optional
-- (void)returnToHomeViewFromPersonalAreaView;
+- (void)returnToHomeViewFromInsuranceComparatorView;
 @end
 
-@interface PersonalAreaViewController : UIViewController <UIWebViewDelegate>
+@interface InsuranceComparatorViewController : UIViewController <WKNavigationDelegate>
 
-@property (nonatomic, weak) id <PersonalAreaViewControllerDelegate> delegate;
+@property (nonatomic, weak) id <InsuranceComparatorViewControllerDelegate> delegate;
+@property(strong,nonatomic) WKWebView *theWebView;
+@property (weak, nonatomic) IBOutlet UIView *toolBar;
 
 @end
 

@@ -7,10 +7,22 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RateExplanationViewController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface RateDetailsViewController : UIViewController
+@protocol RateDetailsViewControllerDelegate
+@optional
+- (void)returnToHomeViewFromRateDetailsView;
+@end
+
+@interface RateDetailsViewController : UIViewController <RateExplanationViewControllerDelegate>
+
+@property (nonatomic, weak) id <RateDetailsViewControllerDelegate> delegate;
+@property (nonatomic, strong) NSDictionary *hightValues;
+@property (nonatomic, strong) NSDictionary *averageValues;
+@property (nonatomic, strong) NSDictionary *lowValues;
+@property (nonatomic, strong) NSDictionary *lowRegionsValues;
 
 @end
 

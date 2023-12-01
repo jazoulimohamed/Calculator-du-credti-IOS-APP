@@ -10,7 +10,14 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@protocol MonthlyPaymentViewControllerDelegate
+@optional
+- (void)returnToHomeViewFromMonthlyPaymentView;
+@end
+
 @interface MonthlyPaymentViewController : UIViewController
+
+@property (nonatomic, weak) id <MonthlyPaymentViewControllerDelegate> delegate;
 
 @end
 

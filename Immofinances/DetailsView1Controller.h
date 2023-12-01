@@ -10,7 +10,14 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@protocol DetailsView1ControllerDelegate
+@optional
+- (void)hideDetailsView1;
+@end
+
 @interface DetailsView1Controller : UIViewController
+
+@property (nonatomic, weak) id <DetailsView1ControllerDelegate> delegate;
 
 @end
 

@@ -20,11 +20,14 @@ alpha:1.0]
     [super awakeFromNib];
     // Initialization code
     
-    self.menuTitleLabel.textColor = UIColorFromRGB(0xffffff);
+    self.menuTitleLabel.textColor = UIColorFromRGB(0x414342);
     self.menuTitleLabel.numberOfLines = 2;
-    self.menuTitleLabel.textColor = [UIColor whiteColor];
     self.menuTitleLabel.lineBreakMode = NSLineBreakByWordWrapping;
-    self.menuTitleLabel.font = [UIFont fontWithName:@"HelveticaNeue-Bold" size:18.0];
+    self.menuTitleLabel.font = [UIFont fontWithName:@"HelveticaNeue-Bold" size:13.0];
+    
+    self.separatorView.backgroundColor = UIColorFromRGB(0x414342);
+    
+    //self.separatorInset = UIEdgeInsetsMake(0.0f, 0.0f, 0.0f, CGFLOAT_MAX);
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
